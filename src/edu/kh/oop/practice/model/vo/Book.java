@@ -52,6 +52,11 @@ public class Book {
 		this.author = author;
 	}
 	
+    public String toString() {
+		return title + "/"+ price+ "/"+ discountRate+"/" + author;
+		
+	}
+	
 	
 	
 }
